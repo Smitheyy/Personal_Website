@@ -1,10 +1,7 @@
-/* styles-responsive.css */
-/* Base styles - keep existing styles.css unchanged */
 @import "styles.css";
 
-/* Mobile-first adjustments */
+
 @media screen and (max-width: 768px) {
-    /* Header adjustments */
     .top-box {
         padding-top: 50px;
         grid-template-rows: auto auto;
@@ -26,7 +23,8 @@
     }
 
     .cloud1 {
-        margin-top: 50px;
+        margin-left: 300px;
+        margin-top: 0;
     }
 
     .cloud2 {
@@ -40,18 +38,16 @@
         width: auto;
     }
 
-    /* Content adjustments */
     .middle-box {
         margin-top: 50px;
     }
 
     .me {
-        max-width: 100%;
-        height: auto;
+        max-width: auto;
+        height: 180px;
         margin: 20px auto;
     }
 
-    /* Grid adjustments */
     .grid {
         grid-template-columns: 1fr;
         width: 90%;
@@ -64,7 +60,6 @@
         margin: 20px auto;
     }
 
-    /* Typography adjustments */
     h1 {
         font-size: 4rem;
         margin: 30px auto;
@@ -87,7 +82,6 @@
         max-width: 90%;
     }
 
-    /* Contact section */
     .contact-box {
         width: 100%;
         padding: 20px;
@@ -99,7 +93,6 @@
         font-size: 1.2rem;
     }
 
-    /* Footer adjustments */
     .footer {
         padding: 30px 20px;
     }
