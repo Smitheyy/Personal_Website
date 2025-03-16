@@ -62,11 +62,6 @@ a{
   text-decoration: none;
 }
 
-.grid div > img{
-  height: 250px;
-  width: 300px;
-}
-
 .me{
   height: 250px;
   width: auto;
@@ -94,6 +89,31 @@ a{
   width: auto;
   grid-column: 2;
   grid-row: 2;
+}
+
+.gym{
+  height: 250px;
+  width: 300px;
+}
+
+.developer{
+  height: 250px;
+  width: 300px;
+}
+
+.lotr{
+  height: 250px;
+  width: 300px;
+}
+
+.geralt{
+  height: 250px;
+  width: 300px;
+}
+
+.dragon-ball{
+  height: 250px;
+  width: 300px;
 }
 
 hr{
